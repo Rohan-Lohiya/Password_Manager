@@ -1,0 +1,67 @@
+@media screen and (max-width: 500px) {
+    #url{
+        width: 100%;
+    }
+    .info{
+        width: 104%;
+    }
+    #username{
+        width: 52%;
+    }
+    .pass{
+        width: 40%;
+    }
+    #add, #save {
+        height: 35px;
+        border-radius: 30px;
+        border: 1px solid #1e7c98;
+        width: 135px;
+        font-weight: bolder;
+        transition: 0.2s;
+        margin-top: 10px;
+        color: #1f6265;
+        cursor: pointer;
+    }
+    .showtable {
+        height: 35px;
+        font-weight: bold;
+        color: #1f6669;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: rgb(93 217 255);
+        padding-left: 10px;
+        width: 138px;
+        border-radius: 30px;
+        position: relative;
+        cursor: pointer;
+        user-select: none;
+        transition: 0.3s;
+        font-size: small;
+    }
+    .showpasstable {
+        height: 23px;
+        position: absolute;
+        top: 6px;
+        right: 10px;
+    }
+    .allpasstablecontainer {
+        width: 100%;
+        margin-top: -18px;
+    }
+    .tcolumn{
+        padding: 5px;
+    }
+    .copyicon{
+        position: static;
+    }
+    th{
+        font-size: smaller;
+    }
+    .container{
+        margin-bottom: 55px;
+    }
+    .navbar{
+        width: 94vw;
+    }
+}
